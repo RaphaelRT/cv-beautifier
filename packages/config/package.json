@@ -1,0 +1,15 @@
+{
+  "name": "@cv-beautifier/config",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    "./eslint": "./eslint/index.mjs",
+    "./prettier": "./prettier/index.cjs"
+  },
+  "main": "./index.js",
+  "types": "./index.d.ts",
+  "dependencies": {
+    "typescript-eslint": "^8"
+  }
+}
