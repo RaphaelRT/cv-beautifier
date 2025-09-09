@@ -11,7 +11,7 @@ yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
 
-# Lockfiles (conserver uniquement celui de la racine)
+# Lockfiles (keep only root level)
 apps/*/package-lock.json
 packages/*/package-lock.json
 apps/*/npm-shrinkwrap.json
@@ -43,7 +43,7 @@ coverage/
 .cache/
 .eslintcache
 
-# Env files (ne jamais commiter les secrets)
+# Env files (never commit secrets)
 .env
 .env.local
 .env.development.local
@@ -60,3 +60,4 @@ coverage/
 !.vscode/extensions.json
 !.vscode/settings.json
 .idea/
+.github/
