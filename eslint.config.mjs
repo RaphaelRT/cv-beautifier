@@ -1,4 +1,4 @@
-import shared from "@cv-beautifier/config/eslint/index.mjs";
+import shared from "@cv-beautifier/config/eslint";
 
 export default [
   ...shared,

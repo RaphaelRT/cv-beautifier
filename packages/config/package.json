@@ -5,6 +5,7 @@
   "type": "module",
   "exports": {
     "./eslint": "./eslint/index.mjs",
+    "./eslint/index.mjs": "./eslint/index.mjs",
     "./prettier": "./prettier/index.cjs"
   },
   "main": "./index.js",
