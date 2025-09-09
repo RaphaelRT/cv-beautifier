@@ -60,4 +60,4 @@ coverage/
 !.vscode/extensions.json
 !.vscode/settings.json
 .idea/
-.github/
+.vercel
